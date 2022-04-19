@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sketchbook</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/csv6fur.css" />
+  </head>
+
+  <div class="sidebar-container">
+    <div class="sidebar-item topSidebar">
+      <h2>
+        <div id="dayDisplay" class="container"></div>
+      </h2>
+      <h1>
+        <div id="dateDisplay" class="container1"></div>
+        <div id="monthyearDisplay" class="container1"></div>
+        <div id="clockDisplay" class="container1"></div>
+      </h1>
+    </div>
+    <div class="sidebar-item bottomSidebar">
+      <ul>
+        <li>
+          <h1><a href="index.html">Archive</a></h1>
+        </li>
+        <li>
+          <h1><a href="sketchbook.html">Sketchbook</a></h1>
+        </li>
+        <li>
+          <h1><a href="guest.html">Guestlog</a></h1>
+        </li>
+      </ul>
+    </div>
+  </div> 
+  
+  <body class="flower3">
+    
+    <div id="tool" class="mytabs tabby">
+    <p>
+      Name: <input type="text" id="nameInput" name="fname">
+      <button id="saveButton">save</button>
+      <button id="clearButton">clear</button>
+      
+       <ol id="drawinglist">
+      </ol>
+    </p>
+
+        </div>
+       <script src="sketch.js"></script>
+
+  </body>
+ 
+</html>
